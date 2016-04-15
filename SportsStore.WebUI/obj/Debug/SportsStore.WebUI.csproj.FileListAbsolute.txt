@@ -63,3 +63,5 @@ D:\Dropbox\Neumont\CSC260\SportsStore\SportsStore.WebUI\bin\Antlr3.Runtime.pdb
 D:\Dropbox\Neumont\CSC260\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.xml
 D:\Dropbox\Neumont\CSC260\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 D:\Dropbox\Neumont\CSC260\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+D:\Dropbox\Neumont\CSC260\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+D:\Dropbox\Neumont\CSC260\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
