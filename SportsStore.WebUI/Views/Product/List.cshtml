@@ -11,10 +11,8 @@
             <div class="col-sm-8 well text-center">
                 <h3>@p.Name</h3>
                 <img src="@Url.Content(p.ImagePath)" alt="image" height="100"><br>
-                @*@p.ImagePath*@
-                @p.Description
+                <p><small>@p.Description</small></p>
                 <h4>@p.Price.ToString("c")</h4>
-
             </div>
             <div class="col-sm-2"></div>
         </div>
