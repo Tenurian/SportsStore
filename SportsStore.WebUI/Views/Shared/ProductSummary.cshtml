@@ -1,0 +1,11 @@
+﻿@model SportsStore.Domain.Entities.Product
+<div class="well text-center">
+    <h3>
+        <strong><span class="pull-left">@Model.Name</span></strong>
+    <span class="pull-right label label-primary">@Model.Price.ToString("c")</span>
+        </h3>
+    <br>
+    <br>
+        <img height="100" class="img-rounded" src="@Model.ImagePath" /><br>
+        <span class="lead">@Model.Description</span>
+</div>
