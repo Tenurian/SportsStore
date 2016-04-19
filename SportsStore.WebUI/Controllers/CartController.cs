@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using SportsStore.WebUI.Models;
 using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
 
@@ -15,6 +16,14 @@ namespace SportsStore.WebUI.Controllers
         public CartController(IProductRepository repo)
         {
             repository = repo;
+        }
+        public ViewResult Index(string returnUrl)
+        {
+            return View(new CartIndexViewModel
+            {
+                Cart = GetCart(),
+                ReturnUrl = returnUrl
+            });
         }
         public RedirectToRouteResult AddToCart(int productId, string returnUrl)
         {
@@ -44,10 +53,6 @@ namespace SportsStore.WebUI.Controllers
                 Session["Cart"] = cart;
             }
             return cart;
-        }
-        public ActionResult Index()
-        {
-            return View();
         }
     }
 }
